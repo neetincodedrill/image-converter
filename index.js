@@ -10,7 +10,7 @@ const PORT = 3001;
 const uploadsDir = path.join(__dirname, "uploads");
 const outputDir = path.join(__dirname, "update-image");
 
-const convertFormat = "png";
+const convertFormat = "png"; //JPEG, PNG, WebP, GIF, AVIF and TIFF formats
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB in bytes
 const COMPRESS_THRESHOLD = 1 * 1024 * 1024; // 1MB in bytes
 
